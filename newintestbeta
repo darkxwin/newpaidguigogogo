@@ -1,4 +1,7 @@
-    local Players = game:GetService "Players"
+  local library = {
+        flags = {}
+    }
+local Players = game:GetService "Players"
     local Player = Players.LocalPlayer
     local Mouse = Player:GetMouse()
     local UserInputService = game:GetService "UserInputService"
